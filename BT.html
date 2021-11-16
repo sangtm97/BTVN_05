@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Tim max
+        // let lophoc = [
+        //     { name: "Hai", age: 22 },
+        //     { name: "Tam", age: 24 },
+        //     { name: "Dong", age: 26 }
+        // ];
+        // let tuoiMax = 0;
+        // for(let hocVien of lophoc){
+        //     if(hocVien.age > tuoiMax){
+        //         tuoiMax = hocVien.age;
+        //     }
+        // }
+        // console.log(tuoiMax);
+
+        //So chan
+        // function even(num){
+        //     if(num % 2 === 0)
+        //     {
+        //         return true;
+        //     }
+        //     else{
+        //         return false
+        //     }
+        // }
+
+        // console.log(even(5));
+
+        //Tinh tong binh phuong
+        //let number = [1,2,3];
+        // function tinhTong(num){
+        //     let sum = 0;
+        //     for(let i = 0; i < num.length; i++){
+        //         sum += num[i] * num[i];
+        //     }
+
+        //     return sum;
+        // }
+
+        // let arr = [1,2,3];
+        // console.log(tinhTong(arr));
+
+        //Diem so lan xuat hien
+        function countItem(arr, item){
+            let count = 0;
+            for(let i = 0; i < arr.length; i++){
+               if(item === arr[i]){
+                 count++;
+               }
+            }
+            return count;
+        }
+        let arr =[1,2,2,3,2,2];
+        let item = 3;
+        console.log(countItem(arr,item));
+    </script>
+</body>
+</html>
